@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700&display=swap");
+
+body {
+  background: #ffffff;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result {
+  width: 375px;
+  height: 356px;
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+  box-shadow: 0px 30px 60px rgba(61, 108, 236, 0.15);
+  border-radius: 0px 0px 32px 32px;
+}
+.first {
+  color: #cac9ff;
+  font-family: "Hanken Grotesk";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  padding-top: 24px;
+}
+.oval {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+  margin: 24px 117px 24px 118px;
+}
+.second {
+  color: #ffffff;
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 72px;
+  text-align: center;
+  width: 63px;
+  height: 72px;
+  padding: 25px 39px 0px 38px;
+}
+.of {
+  color: #cac9ff;
+  mix-blend-mode: normal;
+  opacity: 0.52;
+  font-family: "Hanken Grotesk";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  width: 46px;
+  height: 21px;
+  padding-left: 47px;
+  padding-bottom: 22px;
+}
+h1 {
+  color: #ffffff;
+  font-family: "Hanken Grotesk";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+}
+.performance {
+  color: #cac9ff;
+  font-family: "Hanken Grotesk";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  padding: 8px 57px 40px 58px;
+}
+h3 {
+  color: #303b59;
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 24px 265px 24px 32px;
+}
+.red {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ff5555;
+  border-radius: 12px;
+  width: 315px;
+  margin-bottom: 16px;
+  margin-left: 30px;
+  padding: 17px 16px 18px 16px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.one {
+  width: 315px;
+}
+.reaction {
+  color: #ff5555;
+  font-family: "Hanken Grotesk";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  padding-left: 12px;
+}
+.yellow {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ffb21e;
+  border-radius: 12px;
+  width: 315px;
+  margin-bottom: 16px;
+  margin-left: 30px;
+  padding: 17px 16px 18px 16px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.two {
+  width: 315px;
+}
+.memory {
+  color: #ffb21e;
+  font-family: "Hanken Grotesk";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  padding-left: 12px;
+}
+.green {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #00bb8f;
+  border-radius: 12px;
+  width: 315px;
+  margin-bottom: 16px;
+  margin-left: 30px;
+  padding: 17px 16px 18px 16px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.three {
+  width: 315px;
+}
+.verbal {
+  color: #00bb8f;
+  font-family: "Hanken Grotesk";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  padding-left: 12px;
+}
+.blue {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #1125d6;
+  border-radius: 12px;
+  width: 315px;
+  margin-left: 30px;
+  padding: 17px 16px 18px 16px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.four {
+  width: 315px;
+}
+.visual {
+  color: #1125d6;
+  font-family: "Hanken Grotesk";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  padding-left: 12px;
+}
+span {
+  color: #303b59;
+  opacity: 0.5;
+  font-family: "Hanken Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: right;
+  padding-left: 8px;
+}
+button {
+  background: #303b59;
+  border-radius: 128px;
+  width: 315px;
+  height: 56px;
+  color: #ffffff;
+  font-family: "Hanken Grotesk";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: right;
+  padding: 17px 120px 16px 120px;
+  margin: 24px 30px 30px 30px;
+  border: none;
+}
+.one,
+.two,
+.three,
+.four,
+.number {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 1440px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-y: hidden;
+  }
+  .main {
+    display: flex;
+    width: 736px;
+    height: 512px;
+    margin: 284px auto 284px;
+    border-radius: 32px;
+  }
+  .result {
+    width: 368px;
+    height: 512px;
+    flex-basis: 50%;
+    border-radius: 32px;
+  }
+  .first {
+    font-size: 24px;
+    line-height: 31px;
+    padding-top: 38px;
+  }
+  .oval {
+    width: 200px;
+    height: 200px;
+    margin: 35px 84px 28px 84px;
+  }
+  .second {
+    font-size: 72px;
+    width: 81px;
+    padding: 55px 60px 4px 59px;
+  }
+  .of {
+    font-size: 18px;
+    line-height: 23px;
+    width: 52px;
+    height: 23px;
+    padding-left: 73px;
+    padding-bottom: 46px;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .performance {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 14px 54px 55px 54px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 31px;
+    margin: 38px 224px 28px 40px;
+  }
+  .red,
+  .yellow,
+  .green,
+  .blue {
+    width: 288px;
+    margin-left: 40px;
+    padding: 17px 16px 16px 16px;
+  }
+  .one,
+  .two,
+  .three,
+  .four {
+    width: 288px;
+  }
+  .reaction,
+  .memory,
+  .verbal,
+  .visual {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  span {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  button {
+    background: #303b59;
+    border-radius: 128px;
+    width: 288px;
+    padding: 17px 107px 16px 106px;
+    margin: 41px 40px 46px 40px;
+    border: none;
+  }
+  button:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      180deg,
+      #7755ff 0%,
+      #6943ff 0.01%,
+      #2f2ce9 100%
+    );
+  }
+}
